@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">YSAN Application</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">YSAN Admin</string>
+    <string name="nav_header_subtitle">Youth Sports Advancement Network</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_event_overview">Event Overview</string>
+    <string name="menu_event_management">Event Management</string>
+    <string name="menu_participant_registration">Registration</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="category_soccer">Soccer</string>
+    <string name="category_athletics">Athletics</string>
+    <string name="category_basketball">Basketball</string>
+    <string name="category_netball">Netball</string>
+    <string name="category_fitness">Fitness &amp; Conditioning</string>
+
+    <string name="status_active">Active</string>
+    <string name="status_full">Full</string>
+    <string name="status_cancelled">Cancelled</string>
+    <string name="status_completed">Completed</string>
+
+    <string name="label_date">Date</string>
+    <string name="label_venue">Venue</string>
+    <string name="label_registrations">Registrations</string>
+    <string name="label_capacity">Capacity</string>
+    <string name="label_registrations_count">Registrations: %1$d / %2$d</string>
+
+    <string name="label_date_value">Date: %1$s</string>
+    <string name="label_venue_value">Venue: %1$s</string>
+    <string name="label_availability_value">Availability: %1$d slots remaining (%2$s)</string>
+    <string name="button_event_full">Event Full</string>
+    <string name="button_complete_registration">Complete Registration</string>
+
+    <string name="button_save">Save Event</string>
+    <string name="button_update">Update Event</string>
+    <string name="button_view_participants">View Participant List</string>
+
+    <string name="fab_content_description">Create New Event</string>
+    <string name="image_view_item_transform_content_description">Item Image</string>
+</resources>

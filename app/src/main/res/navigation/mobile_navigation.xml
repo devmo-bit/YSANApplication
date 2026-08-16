@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_event_overview">
+
+    <fragment
+        android:id="@+id/nav_event_overview"
+        android:name="com.example.ysanapplication.ui.overview.EventOverviewFragment"
+        android:label="@string/menu_event_overview"
+        tools:layout="@layout/fragment_event_overview">
+        <action
+            android:id="@+id/action_nav_event_overview_to_nav_participant_registration"
+            app:destination="@id/nav_participant_registration"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_event_management"
+        android:name="com.example.ysanapplication.ui.management.EventManagementFragment"
+        android:label="@string/menu_event_management"
+        tools:layout="@layout/fragment_event_management">
+        <action
+            android:id="@+id/action_nav_event_management_to_nav_participant_list"
+            app:destination="@id/nav_participant_list"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_participant_registration"
+        android:name="com.example.ysanapplication.ui.registration.ParticipantRegistrationFragment"
+        android:label="@string/menu_participant_registration"
+        tools:layout="@layout/fragment_participant_registration" />
+
+    <fragment
+        android:id="@+id/nav_participant_list"
+        android:name="com.example.ysanapplication.ui.management.ParticipantListFragment"
+        android:label="Participant List"
+        tools:layout="@layout/fragment_event_participants" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.ysanapplication.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
